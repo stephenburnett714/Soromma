@@ -5,6 +5,9 @@
 
 /*********** Nav Bar ***********/
 .nav-bar {
+  display: flex;
+flex-direction: row;
+justify-content: space-between;
   padding-top: 1vh;
   position: fixed;
 }
@@ -33,4 +36,6 @@ margin-left: 15vw;
 margin-right: 15vw;
 justify-content: space-between;
 margin-right: 15vw;
+height: 11vh;
+align-items: center;
 }
