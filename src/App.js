@@ -3,10 +3,7 @@ import About from './Components/About'
 import Contact from './Components/Contact'
 import Home from './Components/Home'
 import Navbar from './Components/Navbar'
-import Portfolio from './Components/Portfolio'
 import Services from './Components/Services'
-import Team from './Components/Team'
-import Testimonials from './Components/Testimonials'
 import './App.css';
 
 function App() {
@@ -16,9 +13,6 @@ function App() {
       <Home />
       <About />
       <Services />
-      <Testimonials />
-      <Portfolio />
-      <Team />
       <Contact />
     </div>
   );

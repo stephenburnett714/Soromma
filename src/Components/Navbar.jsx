@@ -14,7 +14,7 @@ export default function Navbar() {
 
             <div className="nav-title-container">
 
-                <div><Link
+                <div className="nav-title"><Link
                     className="nav-title"
                     activeClass="active"
                     to="home"
@@ -24,7 +24,7 @@ export default function Navbar() {
                     duration={500}
                 >Home</Link></div>
 
-                <div><Link
+                <div className="nav-title"><Link
                     className="nav-title"
                     activeClass="active"
                     to="about"
@@ -34,7 +34,7 @@ export default function Navbar() {
                     duration={500}
                 >About</Link></div>
 
-                <div><Link
+                <div className="nav-title"><Link
                     className="nav-title"
                     activeClass="active"
                     to="services"
@@ -44,37 +44,8 @@ export default function Navbar() {
                     duration={500}
                 >Services</Link></div>
 
-                <div><Link
-                    className="nav-title"
-                    activeClass="active"
-                    to="testimonials"
-                    spy={true}
-                    smooth={true}
-                    offset={0}
-                    duration={500}
-                >Testimonials</Link></div>
 
-                <div><Link
-                    className="nav-title"
-                    activeClass="active"
-                    to="portfolio"
-                    spy={true}
-                    smooth={true}
-                    offset={0}
-                    duration={500}
-                >Portfolio</Link></div>
-
-                <div><Link
-                    className="nav-title"
-                    activeClass="active"
-                    to="team"
-                    spy={true}
-                    smooth={true}
-                    offset={0}
-                    duration={500}
-                >Team</Link></div>
-
-                <div><Link
+                <div className="nav-title"><Link
                     className="nav-title"
                     activeClass="active"
                     to="contact"
