@@ -4,7 +4,7 @@ import sorroma from '../Images/Soromma.png'
 export default function Navbar() {
 
     return (
-        <div className="">
+        <div className="nav-bar">
 
             <div className="nav-bar-logo-container">
                 <img className="nav-bar-logo" src={sorroma} alt="logo" />

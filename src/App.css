@@ -4,6 +4,12 @@
 
 
 /*********** Nav Bar ***********/
+.nav-bar {
+  padding-top: 1vh;
+  position: fixed;
+}
+
+
 .nav-bar-logo-container {
   width: 4vw;
   height: 4vh;
@@ -15,7 +21,7 @@
 }
 
 .nav-title {
-  font-size: 14px;
+  font-size: 16px;
   padding: 11px 15px;
   color: #635551
 }
@@ -23,4 +29,8 @@
 .nav-title-container {
 display: flex;
 flex-direction: row;
+margin-left: 15vw;
+margin-right: 15vw;
+justify-content: space-between;
+margin-right: 15vw;
 }
