@@ -6,7 +6,7 @@
 
 .header-title {
 font-size: x-large;
-padding: 15px;
+padding-bottom: 15px;
 color: rgb(54, 54, 54);
 text-decoration: underline;
 }
@@ -96,14 +96,13 @@ background-color: rgba(0, 0, 0, 0.3);
 /*********** About ***********/
 
 .about {
-  padding: 0 10vw;
+  padding: 5vh 10vw;
 }
 
 .about-text {
 font-size: medium;
 text-align: left;
 padding-bottom: 25px;
-padding-right: ;
 }
 
 .about-category {
@@ -125,3 +124,33 @@ div.about-image > img {
 .about-text-container {
   padding: 10px 0;
 }
+
+/*********** Services ***********/
+
+.services {
+  padding: 5vh 10vw;
+  background-color: rgba(95, 148, 202, .1);
+}
+
+.service-card {
+  max-width: 300px;
+  max-height:300px;
+  padding: 30px;
+  margin: 10px;
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+}
+
+.service-card-title{
+  padding: 10px;
+  font-size: large;
+}
+
+.service-card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+/*********** Footer ***********/
