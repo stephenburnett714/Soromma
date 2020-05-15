@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from "react-scroll";
+import Burger from "./Burger"
 import sorroma from '../Images/Soromma.png'
 
 
@@ -56,7 +57,7 @@ export default function Navbar() {
                 >Contact</Link></div>
 
             </div>
-
+<Burger />
         </div>
     )
 }
