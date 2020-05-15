@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLaptop, faWifi, faTools, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faLaptop, faWifi, faTools, faDatabase, faPhone } from '@fortawesome/free-solid-svg-icons'
 
 export default function Services() {
 
@@ -28,7 +28,7 @@ export default function Services() {
             </div>
 
             <div className="service-card">
-            <FontAwesomeIcon icon={faPhone} size = '3x'/>
+            <FontAwesomeIcon icon={faDatabase} size = '3x'/>
                 <div className="service-card-title">Service</div>
                 <div className= "">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quis blanditiis at magni eius. Doloremque velit fugit ab beatae doloribus harum! Dolorum hic ipsam dolore quaerat labore accusamus magni distinctio.</div>
             </div>
