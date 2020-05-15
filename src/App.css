@@ -128,7 +128,7 @@ div.about-image > img {
 /*********** Services ***********/
 
 .services {
-  padding: 5vh 10vw;
+  padding: 5vh 5vw;
   background-color: rgba(95, 148, 202, .1);
 }
 
@@ -138,6 +138,8 @@ div.about-image > img {
   padding: 30px;
   margin: 10px;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  border-radius: 10px;
+  background-color: white;
 }
 
 .service-card-title{
@@ -152,5 +154,43 @@ div.about-image > img {
   justify-content: center;
 }
 
+/*********** Contact ***********/
+
+.contact {
+  padding: 5vh 10vw;
+}
+
+.contact-card {
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  border-radius: 10px;
+  min-width: 200px;
+}
+
+.contact-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.contact-card-container :hover{
+  color: rgb(95, 148, 202);
+}
+
 
 /*********** Footer ***********/
+.footer {
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(99, 163, 228);
+}
+
+.footer-text {
+  color: white;
+  font-size: large;
+}
