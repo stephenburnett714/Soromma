@@ -10,6 +10,10 @@ import SlideData from './SlideData'
 
 export default function Slider() {
 
+ function timeSlide() {
+  setTimeout(function() {goRight();}, 10000)
+ }
+
   let sliderArr = [
     {
       source: <SlideData src={Slide1} />,
@@ -72,7 +76,7 @@ export default function Slider() {
         <i class="fas fa-chevron-right fa-3x"></i>
         </span>
         </button>
-        {setTimeout(goRight, 10000)}
+        {() => timeSlide()}
     </div>
   );
 }

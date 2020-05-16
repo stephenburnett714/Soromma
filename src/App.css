@@ -86,15 +86,16 @@ align-items: center;
 
 .home {
   width: 100vw;
-  height: 60vh;
+  height: auto;
   position: relative;
   text-align: center;
   color: black;
+  max-height: 70vh;
 }
 
 .home-background {
   width: 100vw;
-  height: 60vh;
+  height: auto;
   background-position: fixed;
 }
 
