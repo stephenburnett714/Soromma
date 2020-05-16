@@ -2,13 +2,19 @@
   text-align: center;
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+
+
+
 /*********** Used In Multiple ***********/
 
 .header-title {
-font-size: x-large;
+font-size: xx-large;
 padding-bottom: 15px;
 color: rgb(54, 54, 54);
-text-decoration: underline;
+text-decoration: none;
+font-family: 'Oxygen', sans-serif;
 }
 
 a {
@@ -35,6 +41,7 @@ justify-content: space-between;
 .nav-bar-logo-container {
   width: 4vw;
   height: 4vh;
+  padding-left: 25px;
 }
 
 .nav-bar-logo {
@@ -43,10 +50,11 @@ justify-content: space-between;
 }
 
 .nav-title {
-  font-size: 20px;
+  font-size: x-large;
   padding: 5px;
   color: #635551;
   cursor: pointer;
+  font-family: 'Oxygen', sans-serif;
 }
 
 .nav-title :hover {
@@ -57,19 +65,26 @@ text-decoration: underline;
 .nav-title-container {
 display: flex;
 flex-direction: row;
-margin-left: 50vw;
+margin-left: 45vw;
 justify-content: space-between;
-margin-right: 15vw;
+margin-right: 10vw;
 height: 11vh;
 width: 40vw;
 align-items: center;
 }
 
 
+@media screen and (max-width: 800px){
+  .nav-title {
+    display: none
+  }
+}
+
+
+
 /*********** Home ***********/
 
 .home {
-  padding-top: 12vh;
   width: 100vw;
   height: 60vh;
   position: relative;
@@ -91,6 +106,7 @@ align-items: center;
 color:white;
 font-size: xx-large;
 background-color: rgba(0, 0, 0, 0.3);
+font-family: 'Oxygen', sans-serif;
 }
 
 .home-subtext {
@@ -117,16 +133,33 @@ padding-bottom: 25px;
 
 .about-container {
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 30% 70%;
 }
 
-div.about-image > img {
-  max-width: 100%;
-  max-height: 100%;
+.about-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-wrapper {
+  width: 100%;
+  margin: auto;
+}
+
+.img-wrapper img {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  height: auto; 
+  margin: auto; 
 }
 
 .about-text-container {
-  padding: 10px 0;
+  padding: 10px 0 10px 15px;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
 }
 
 /*********** Services ***********/
@@ -156,6 +189,12 @@ div.about-image > img {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.circle-icon {
+  background:#000000;
+  padding:30px;
+  border-radius: 50%;
 }
 
 /*********** Contact ***********/
@@ -198,4 +237,5 @@ div.about-image > img {
 .footer-text {
   color: white;
   font-size: large;
+  font-family: 'Oxygen', sans-serif;
 }

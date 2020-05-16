@@ -1,0 +1,50 @@
+/*********** Slider ***********/
+
+.slider {
+position: relative;
+width: 100%;
+height: 100vh;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+display: flex;
+align-items: center;
+overflow: hidden;
+background: black;
+
+}
+
+.slide {
+margin-top: 12vh;
+min-width: 100%;
+height: 80%;
+transition: 0.5s;
+overflow: hidden;
+}
+
+%btn-styles {
+margin-top: 6vh;
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+width: 10%;
+height:80%;
+background:none;
+border: none;
+outline: none;
+transition: 0.5s;
+&:hover {
+    background: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+}
+
+#goLeft {
+left: 0;
+@extend %btn-styles;
+}
+  
+#goRight {
+right:0;
+@extend %btn-styles;
+}
