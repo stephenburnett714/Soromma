@@ -8,7 +8,7 @@ export default function Contact() {
         <div className="contact" id="contact">
             <div className="header-title">Contact Us</div>
             <div className="contact-card-container">
-                <a target="_blank" href="http://maps.google.com/?q=Empire State Building, New York, NY 10001">
+                <a rel="noopener noreferrer" target="_blank" href="http://maps.google.com/?q=Empire State Building, New York, NY 10001">
                 <div className="contact-card">
                     <FontAwesomeIcon icon={faCompass} size= '2x'/>
                     <div>Our Address</div>

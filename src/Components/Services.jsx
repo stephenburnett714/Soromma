@@ -1,6 +1,5 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLaptop, faWifi, faTools, faDatabase, faPhone } from '@fortawesome/free-solid-svg-icons'
+
 
 export default function Services() {
 
