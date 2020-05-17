@@ -1,30 +1,31 @@
 import React from 'react'
+import AOS from 'aos';
 import aboutImg from '../Images/about-side-image.jpg'
 
 export default function About() {
+    AOS.init({
+        offset:100,
+        duration:600})
     return (
         <div className="about" id="about">
             <div className="header-title"> About Us</div>
             <div className="about-container">
                 <div className="about-image-container">
-                    <div className="img-wrapper">
+                    <div className="img-wrapper" data-aos="fade-up">
                         <img class="about-image" src={aboutImg} alt="About" />
                     </div>
                 </div>
                 <div className="about-text-container">
-                    <div className="about-category">Category</div>
-                    <div className="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident sequi deleniti temporibus nemo, quidem inventore quas, non excepturi perferendis odio tenetur doloremque eos consectetur
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae assumenda voluptatem aspernatur magni provident id? Quo explicabo qui numquam aliquid! Fugiat distinctio nobis illum quam reprehenderit ad maxime! Accusantium, reiciendis.
+                    <div className="about-category"></div>
+                    <div className="about-text">Soromma Technologies provides Guardian IT Solutions to secure information technology assets of our clients.
                      </div>
 
-                    <div className="about-category">Category</div>
-                    <div className="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident sequi deleniti temporibus nemo, quidem inventore quas, non excepturi perferendis odio tenetur doloremque eos consectetur
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae assumenda voluptatem aspernatur magni provident id? Quo explicabo qui numquam aliquid! Fugiat distinctio nobis illum quam reprehenderit ad maxime! Accusantium, reiciendis.
+                    <div className="about-category"></div>
+                    <div className="about-text">Soromma Technologies is a minority-owned technology firm that focuses on providing Guardian IT Solutions to our small business, corporate and public sector clients.
                     </div>
 
-                    <div className="about-category">Category</div>
-                    <div className="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident sequi deleniti temporibus nemo, quidem inventore quas, non excepturi perferendis odio tenetur doloremque eos consectetur
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae assumenda voluptatem aspernatur magni provident id? Quo explicabo qui numquam aliquid! Fugiat distinctio nobis illum quam reprehenderit ad maxime! Accusantium, reiciendis.
+                    <div className="about-category"></div>
+                    <div className="about-text">
                     </div>
                 </div>
             </div>

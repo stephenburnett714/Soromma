@@ -11,8 +11,8 @@ export default function Slider() {
   let sliderArr = [
     {
       source: <SlideData src={Slide} />,
-      title: "Slide 1",
-      message: "Information"
+      title: "Soromma Technologies",
+      message: "Guardian IT Solutions"
     }
   ]
 

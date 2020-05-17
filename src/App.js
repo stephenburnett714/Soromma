@@ -5,6 +5,7 @@ import Slider from './Components/Slider'
 import Navbar from './Components/Navbar'
 import Services from './Components/Services'
 import Footer from './Components/Footer'
+import 'aos/dist/aos.css';
 import './App.css';
 
 function App() {
