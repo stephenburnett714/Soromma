@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from "react-scroll";
+import Burger from "./Burger"
 import sorroma from '../Images/Soromma.png'
 
 
@@ -8,8 +9,15 @@ export default function Navbar() {
     return (
         <div className="nav-bar" id="navbar">
 
-            <div className="nav-bar-logo-container">
+            <div className="nav-bar-logo-container"><Link
+                activeClass="active"
+                to="home"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}>
                 <img className="nav-bar-logo" src={sorroma} alt="logo" />
+            </Link>
             </div>
 
             <div className="nav-title-container">
@@ -55,6 +63,7 @@ export default function Navbar() {
                     duration={500}
                 >Contact</Link></div>
 
+                <Burger />
             </div>
 
         </div>
