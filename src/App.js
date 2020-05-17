@@ -6,7 +6,7 @@ import Navbar from './Components/Navbar'
 import Services from './Components/Services'
 import Footer from './Components/Footer'
 import 'aos/dist/aos.css';
-import './App.css';
+import './App.scss';
 
 function App() {
   return (

@@ -1,8 +1,6 @@
 import React from "react";
-import '../slider.scss'
-import Slide from '../Images/Slide5.jpg'
 import SlideData from './SlideData'
-
+import Background from '../Images/slide-background.jpg'
 
 export default function Slider() {
 
@@ -10,7 +8,7 @@ export default function Slider() {
 
   let sliderArr = [
     {
-      source: <SlideData src={Slide} />,
+      source: <SlideData src={Background} />,
       title: "Soromma Technologies",
       message: "Guardian IT Solutions"
     }

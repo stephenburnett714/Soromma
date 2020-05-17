@@ -1,0 +1,273 @@
+.App {
+  text-align: center;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap");
+
+/*********** Used In Multiple ***********/
+
+.header-title {
+  font-size: xx-large;
+  padding-bottom: 15px;
+  color: rgb(54, 54, 54);
+  text-decoration: none;
+  font-family: "Oxygen", sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/*********** Nav Bar ***********/
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 1vh;
+  position: fixed;
+  background-color: white;
+  z-index: 2;
+  box-shadow: 1px -24px 69px 3px rgba(136, 136, 136, 1);
+}
+
+.nav-bar-logo-container {
+  width: 4vw;
+  height: 4vh;
+  padding-left: 25px;
+}
+
+.nav-bar-logo {
+  height: 10vh;
+  width: auto;
+}
+
+.nav-title {
+  font-size: x-large;
+  padding: 5px;
+  color: #635551;
+  cursor: pointer;
+  font-family: "Oxygen", sans-serif;
+}
+
+.nav-title :hover {
+  color: rgb(95, 148, 202);
+  text-decoration: underline;
+}
+
+.nav-title-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 45vw;
+  justify-content: space-between;
+  margin-right: 10vw;
+  height: 11vh;
+  width: 40vw;
+  align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+  .nav-title {
+    display: none;
+  }
+}
+
+/*********** Slider ***********/
+
+.home {
+  width: 100vw;
+  height: auto;
+  position: relative;
+  text-align: center;
+  color: black;
+  max-height: 60vh;
+}
+
+.home-background {
+  width: 100vw;
+  height: auto;
+  background-position: fixed;
+}
+
+.home-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: xx-large;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-family: "Oxygen", sans-serif;
+  border-radius: 15px;
+}
+
+.home-subtext {
+  font-size: x-large;
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background: black;
+  }
+  
+  .slide {
+  margin-top: 12vh;
+  min-width: 100%;
+  height: auto;
+  transition: 0.5s;
+  overflow: hidden;
+  }
+
+/*********** About ***********/
+
+.about {
+  padding: 5vh 10vw;
+}
+
+.about-text {
+  font-size: large;
+  text-align: left;
+  padding-bottom: 25px;
+}
+
+.about-category {
+  font-size: large;
+  text-align: left;
+  padding-bottom: 18px;
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.about-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-wrapper {
+  width: 100%;
+  margin: auto;
+}
+
+.img-wrapper img {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin: auto;
+}
+
+.about-text-container {
+  padding: 10px 0 10px 15px;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 900px) {
+  .img-wrapper {
+    display: none;
+  }
+
+  .about-container {
+    display: flex;
+  }
+}
+/*********** Services ***********/
+
+.services {
+  padding: 5vh 5vw;
+  background-color: rgba(95, 148, 202, 0.1);
+}
+
+.service-card {
+  max-width: 300px;
+  max-height: 300px;
+  padding: 30px;
+  margin: 10px;
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  border-radius: 10px;
+  background-color: white;
+}
+
+.service-card-title {
+  padding: 10px;
+  font-size: x-large;
+}
+
+.service-card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.circle-icon {
+  background: #63a3e4;
+  padding: 30px;
+  border-radius: 50%;
+}
+
+/*********** Contact ***********/
+
+.contact {
+  padding: 5vh 10vw;
+}
+
+.contact-header {
+  font-size: large;
+  padding-bottom: 5px;
+}
+
+.contact-card {
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  border-radius: 10px;
+  min-width: 300px;
+}
+
+.contact-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact-card-container :hover {
+  color: rgb(95, 148, 202);
+}
+
+@media screen and (max-width: 900px) {
+  .contact-card {
+    width: 80vw;
+    min-width: 0px;
+  }
+}
+
+/*********** Footer ***********/
+.footer {
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(99, 163, 228);
+}
+
+.footer-text {
+  color: white;
+  font-size: large;
+  font-family: "Oxygen", sans-serif;
+}

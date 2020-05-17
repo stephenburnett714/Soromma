@@ -29,13 +29,6 @@ export default function Services() {
                     </div>
                 </div>
 
-                {/* <div className="service-card">
-                    <span style={{ color: '#FFFFFF' }}>
-                        <i class="fas fa-tools circle-icon fa-3x"></i>
-                    </span>
-                    <div className="service-card-title">Service</div>
-                    <div className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quis blanditiis at magni eius. Doloremque velit fugit ab beatae doloribus harum! Dolorum hic ipsam dolore quaerat labore accusamus magni distinctio.</div>
-                </div> */}
 
                 <div className="service-card" data-aos="fade-up">
                     <span style={{ color: '#FFFFFF' }}>
@@ -47,7 +40,7 @@ export default function Services() {
 
                 <div className="service-card" data-aos="fade-up">
                     <span style={{ color: '#FFFFFF' }}>
-                        <i class="fas fa-fingerprint circle-icon fa-3x"></i>
+                        <i class="fas fa-shield-alt circle-icon fa-3x"></i>
                     </span>
                     <div className="service-card-title">Cybersecurity</div>
                     <div className="">
@@ -57,8 +50,6 @@ export default function Services() {
                     </ul>
                     </div>
                 </div>
-
-
 
             </div>
         </div>
