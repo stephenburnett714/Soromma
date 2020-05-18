@@ -45,12 +45,12 @@ export default function Navbar() {
                 <div className="nav-title"><Link
                     className="nav-title"
                     activeClass="active"
-                    to="services"
+                    to="solutions"
                     spy={true}
                     smooth={true}
                     offset={-100}
                     duration={500}
-                >Services</Link></div>
+                >Solutions</Link></div>
 
 
                 <div className="nav-title"><Link
