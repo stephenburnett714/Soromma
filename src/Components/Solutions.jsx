@@ -7,13 +7,13 @@ export default function Services() {
         offset:200,
         duration:600})
     return (
-        <div className="services" id="services">
-            <div className="header-title"> Services</div>
+        <div className="services" id="solutions">
+            <div className="header-title">Solutions</div>
             <div className="service-card-container">
 
                 <div className="service-card" data-aos="fade-up">
                     <span style={{ color: '#FFFFFF' }}>
-                        <i class="fas fa-laptop circle-icon fa-3x"></i>
+                        <i class="fas fa-network-wired circle-icon fa-3x"></i>
                     </span>
                     <div className="service-card-title">Cabling and Networking</div>
                     <div className=""></div>
@@ -21,7 +21,7 @@ export default function Services() {
 
                 <div className="service-card" data-aos="fade-up">
                     <span style={{ color: '#FFFFFF' }}>
-                        <i class="fas fa-network-wired circle-icon fa-3x"></i>
+                        <i class="fas fa-handshake circle-icon fa-3x"></i>
                     </span>
                     <div className="service-card-title">Consulting</div>
                     <div className="">

@@ -24,7 +24,7 @@ display: none;
     flex-flow: column nowrap;
     background-color: white;
     position: fixed;
-    transform: ${({ open}) => open ? 'translateX(0)': 'translateX(100%)'};
+    transform: ${({ open }) => open ? 'translateX(0)': 'translateX(100%)'};
     top: 0;
     right: 0;
     height: 100vh;
@@ -68,14 +68,14 @@ export default function NavMenu(props) {
 
             <Link
                 activeClass="active"
-                to="services"
+                to="solutions"
                 spy={true}
                 smooth={true}
                 offset={-100}
                 duration={500}
                 onClick = {() => props.setOpen(!props.open)}
                 >
-                 <li>Services</li>
+                 <li>Solutions</li>
             </Link>
 
             <Link

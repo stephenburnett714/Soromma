@@ -20,6 +20,7 @@ a {
 }
 
 /*********** Nav Bar ***********/
+
 .nav-bar {
   display: flex;
   flex-direction: row;
@@ -35,6 +36,9 @@ a {
   width: 4vw;
   height: 4vh;
   padding-left: 25px;
+}
+.nav-bar-logo-container :hover{
+cursor: pointer;
 }
 
 .nav-bar-logo {
@@ -80,7 +84,7 @@ a {
   position: relative;
   text-align: center;
   color: black;
-  max-height: 70vh;
+  max-height: 60vh;
 }
 
 .home-background {
@@ -141,7 +145,7 @@ a {
 .about-category {
   font-size: large;
   text-align: left;
-  padding-bottom: 18px;
+  padding-bottom: 10px;
 }
 
 .about-container {
@@ -182,6 +186,10 @@ a {
 
   .about-container {
     display: flex;
+  }
+
+  .about-text {
+    text-align: center;
   }
 }
 /*********** Services ***********/
@@ -270,4 +278,5 @@ a {
   color: white;
   font-size: large;
   font-family: "Oxygen", sans-serif;
+  padding: 0 15px;
 }

@@ -3,7 +3,7 @@ import About from './Components/About'
 import Contact from './Components/Contact'
 import Slider from './Components/Slider'
 import Navbar from './Components/Navbar'
-import Services from './Components/Services'
+import Solutions from './Components/Solutions'
 import Footer from './Components/Footer'
 import 'aos/dist/aos.css';
 import './App.scss';
@@ -14,7 +14,7 @@ function App() {
       <Navbar />
       <Slider />
       <About />
-      <Services />
+      <Solutions />
       <Contact />
       <Footer />
     </div>
