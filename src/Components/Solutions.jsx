@@ -33,10 +33,10 @@ export default function Services() {
             for our Guardian IT Solutions™ include:
           </div>
           <ul className="solution-bullets">
-            <li>Cloud Services</li>
-            <li>Managed Services</li>
-            <li>Cybersecurity</li>
-            <li>DevOps</li>
+            <div><li>Cloud Services</li></div>
+            <div><li>Managed Services</li></div>
+            <div><li>Cybersecurity</li></div>
+            <div><li>DevOps</li></div>
           </ul>
         </div>
 

@@ -218,12 +218,58 @@ a {
 @media screen and (max-width: 600px) {
   .minority-owned-contatiner {
     min-width: 98vw;
-    padding: 5vh 1vw;
+    padding: 5vh 3vw;
   }
+}
+
+@media screen and (max-width: 1000px) {
   .minority-owned {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .minority-owned {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .minority-owned {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .minority-owned {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .minority-owned{
     font-size: 30px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .minority-owned {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .minority-owned {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .minority-owned {
+    font-size: 18px;
+  }
+}
+
 
 /*********** WorkFlow ************/
 
@@ -255,13 +301,51 @@ a {
   margin: 0;
 }
 
-@media screen and (max-width: 600px) {
-  .work-flow-contatiner {
-    min-width: 98vw;
-    padding: 0vh 1vw;
+@media screen and (max-width: 1000px) {
+  .work-flow {
+    font-size: 50px;
   }
+}
+
+@media screen and (max-width: 900px) {
+  .work-flow {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .work-flow {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .work-flow {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 600px) {
   .work-flow {
     font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .work-flow {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .work-flow {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .work-flow {
+    font-size: 18px;
   }
 }
 
@@ -363,7 +447,7 @@ a {
 }
 
 .solution-bullets {
-  justify-self: left;
+  text-align: left;
 }
 
 /*********** Contact ***********/
