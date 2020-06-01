@@ -4,6 +4,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap");
 
+
 /*********** Used In Multiple ***********/
 
 .header-title {
@@ -25,7 +26,7 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 1vh;
+  padding: 10px 0;
   position: fixed;
   background-color: white;
   z-index: 2;
@@ -33,17 +34,18 @@ a {
 }
 
 .nav-bar-logo-container {
-  width: 4vw;
-  height: 4vh;
+  width: 100px;
+  height: 60px;
   padding-left: 25px;
 }
-.nav-bar-logo-container :hover{
-cursor: pointer;
+.nav-bar-logo-container :hover {
+  cursor: pointer;
 }
 
 .nav-bar-logo {
-  height: 10vh;
+  height: 60px;
   width: auto;
+  margin: 0 auto;
 }
 
 .nav-title {
@@ -65,7 +67,7 @@ cursor: pointer;
   margin-left: 45vw;
   justify-content: space-between;
   margin-right: 10vw;
-  height: 11vh;
+  height: 60px;
   width: 40vw;
   align-items: center;
 }
@@ -84,29 +86,13 @@ cursor: pointer;
   position: relative;
   text-align: center;
   color: black;
-  max-height: 60vh;
+  max-height: 80vh;
 }
 
 .home-background {
   width: 100vw;
   height: auto;
   background-position: fixed;
-}
-
-.home-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: xx-large;
-  background-color: rgba(0, 0, 0, 0.7);
-  font-family: "Oxygen", sans-serif;
-  border-radius: 15px;
-}
-
-.home-subtext {
-  font-size: x-large;
 }
 
 .slider {
@@ -120,15 +106,149 @@ cursor: pointer;
   align-items: center;
   overflow: hidden;
   background: black;
-  }
-  
-  .slide {
-  margin-top: 12vh;
+}
+
+.slide {
+  margin-top: 80px;
   min-width: 100%;
   height: auto;
   transition: 0.5s;
   overflow: hidden;
+}
+
+/*********** Mission Statement ************/
+
+.mission-statment-contatiner {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 0;
+  margin: 0;
+  max-width: 100vw;
+  height: auto;
+}
+
+.mission-statement {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  color: black;
+}
+@media screen and (max-width: 1000px) {
+  .mission-statement { 
+    font-size: 50px;
   }
+  }
+
+@media screen and (max-width: 900px) {
+  .mission-statement { 
+    font-size: 45px;
+  }
+  }
+
+@media screen and (max-width: 800px) {
+  .mission-statement { 
+    font-size: 40px;
+  }
+  }
+
+@media screen and (max-width: 700px) {
+  .mission-statement { 
+    font-size: 35px;
+  }
+  }
+
+@media screen and (max-width: 600px) {
+.mission-statement { 
+  font-size: 30px;
+}
+}
+
+
+@media screen and (max-width: 500px) {
+  .mission-statement { 
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .mission-statement { 
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .mission-statement { 
+    font-size: 18px;
+  }
+}
+
+.video-tag {
+  width: 100vw;
+  max-height: auto;
+  z-index: 0;
+  opacity: 0.5;
+}
+
+
+
+
+/*********** MinorityOwned ************/
+
+.minority-owned-contatiner {
+  min-width: 90vw;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #63a3e4;
+  padding: 5vh 5vw;
+}
+
+.minority-owned {
+  font-size: 60px;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .minority-owned-contatiner {
+    min-width: 98vw;
+    padding: 5vh 1vw;
+}
+.minority-owned { 
+  font-size: 30px
+}
+}
+
+/*********** WorkFlow ************/
+
+.work-flow-contatiner {
+  min-width: 90vw;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  padding: 5vh 5vw;
+}
+
+.work-flow {
+  font-size: 60px;
+  color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .work-flow-contatiner {
+    min-width: 98vw;
+    padding: 5vh 1vw;
+}
+.work-flow { 
+  font-size: 30px
+}
+}
+
 
 /*********** About ***********/
 
@@ -192,7 +312,7 @@ cursor: pointer;
     text-align: center;
   }
 }
-/*********** Services ***********/
+/*********** Solutions ***********/
 
 .services {
   padding: 5vh 5vw;
@@ -201,7 +321,7 @@ cursor: pointer;
 
 .service-card {
   max-width: 300px;
-  max-height: 300px;
+  max-height: auto;
   padding: 30px;
   margin: 10px;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
@@ -230,7 +350,7 @@ cursor: pointer;
 /*********** Contact ***********/
 
 .contact {
-  padding: 5vh 10vw;
+  padding: 5vh 20vw;
 }
 
 .contact-header {
@@ -239,18 +359,22 @@ cursor: pointer;
 }
 
 .contact-card {
-  padding: 20px;
-  margin: 10px;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   border-radius: 10px;
   min-width: 300px;
+  max-width: 60vw;
+  padding: 20px 10px;
+  margin-bottom: 10px;
 }
 
 .contact-card-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+}
+.contact-card-image {
+  padding-bottom: 10px;
 }
 
 .contact-card-container :hover {
@@ -258,9 +382,15 @@ cursor: pointer;
 }
 
 @media screen and (max-width: 900px) {
+
+  .contact {
+    padding: 5vh 6vw;
+  }
+
   .contact-card {
-    width: 80vw;
-    min-width: 0px;
+    min-width: 100%;
+    padding: 20px 0;
+
   }
 }
 

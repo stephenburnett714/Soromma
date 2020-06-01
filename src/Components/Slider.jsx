@@ -24,9 +24,6 @@ export default function Slider() {
           <div key={index} className="slide">
             <div className="home">
               {item.source}
-              <div className="home-text">{item.title}<br />
-                <div className="home-subtext">{item.message}</div>
-              </div>
             </div>
           </div>
         )

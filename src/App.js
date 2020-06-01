@@ -1,19 +1,24 @@
 import React from 'react';
-import About from './Components/About'
-import Contact from './Components/Contact'
-import Slider from './Components/Slider'
 import Navbar from './Components/Navbar'
+import About from './Components/About'
+import Slider from './Components/Slider'
+import MissionStatement from './Components/MissionStatement'
 import Solutions from './Components/Solutions'
+import Contact from './Components/Contact'
 import Footer from './Components/Footer'
 import 'aos/dist/aos.css';
 import './App.scss';
+import MinorityOwned from './Components/MinorityOwned';
+import WorkFlow from './Components/WorkFlow';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Slider />
-      <About />
+      <MissionStatement />
+      <MinorityOwned />
+      <WorkFlow />
       <Solutions />
       <Contact />
       <Footer />
