@@ -4,7 +4,6 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap");
 
-
 /*********** Used In Multiple ***********/
 
 .header-title {
@@ -72,7 +71,7 @@ a {
   align-items: center;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 950px) {
   .nav-title {
     display: none;
   }
@@ -126,6 +125,7 @@ a {
   margin: 0;
   max-width: 100vw;
   height: auto;
+  background: #63a3e4;
 }
 
 .mission-statement {
@@ -136,51 +136,57 @@ a {
   font-size: 60px;
   color: black;
 }
+
+@media screen and (max-width: 1100px) {
+  .mission-statement {
+    font-size: 55px;
+  }
+}
+
 @media screen and (max-width: 1000px) {
-  .mission-statement { 
+  .mission-statement {
     font-size: 50px;
   }
-  }
+}
 
 @media screen and (max-width: 900px) {
-  .mission-statement { 
+  .mission-statement {
     font-size: 45px;
   }
-  }
+}
 
 @media screen and (max-width: 800px) {
-  .mission-statement { 
+  .mission-statement {
     font-size: 40px;
   }
-  }
+}
 
 @media screen and (max-width: 700px) {
-  .mission-statement { 
+  .mission-statement {
     font-size: 35px;
   }
-  }
+}
 
 @media screen and (max-width: 600px) {
-.mission-statement { 
-  font-size: 30px;
+  .mission-statement {
+    font-size: 30px;
+  }
 }
-}
-
 
 @media screen and (max-width: 500px) {
-  .mission-statement { 
+  .mission-statement {
     font-size: 26px;
   }
 }
 
 @media screen and (max-width: 420px) {
-  .mission-statement { 
+  .mission-statement {
     font-size: 20px;
   }
 }
 
 @media screen and (max-width: 350px) {
-  .mission-statement { 
+  .mission-statement {
     font-size: 18px;
   }
 }
@@ -191,9 +197,6 @@ a {
   z-index: 0;
   opacity: 0.5;
 }
-
-
-
 
 /*********** MinorityOwned ************/
 
@@ -216,39 +219,51 @@ a {
   .minority-owned-contatiner {
     min-width: 98vw;
     padding: 5vh 1vw;
-}
-.minority-owned { 
-  font-size: 30px
-}
+  }
+  .minority-owned {
+    font-size: 30px;
+  }
 }
 
 /*********** WorkFlow ************/
 
 .work-flow-contatiner {
-  min-width: 90vw;
-  min-height: 90vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: white;
-  padding: 5vh 5vw;
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 0;
+  margin: 0;
+  max-width: 100vw;
+  height: auto;
 }
 
 .work-flow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-size: 60px;
   color: black;
+}
+
+.work-flow-image {
+  width: 100vw;
+  max-height: auto;
+  z-index: 0;
+  opacity: 0.5;
+  padding: 0;
+  margin: 0;
 }
 
 @media screen and (max-width: 600px) {
   .work-flow-contatiner {
     min-width: 98vw;
-    padding: 5vh 1vw;
+    padding: 0vh 1vw;
+  }
+  .work-flow {
+    font-size: 30px;
+  }
 }
-.work-flow { 
-  font-size: 30px
-}
-}
-
 
 /*********** About ***********/
 
@@ -347,6 +362,10 @@ a {
   border-radius: 50%;
 }
 
+.solution-bullets {
+  justify-self: left;
+}
+
 /*********** Contact ***********/
 
 .contact {
@@ -382,7 +401,6 @@ a {
 }
 
 @media screen and (max-width: 900px) {
-
   .contact {
     padding: 5vh 6vw;
   }
@@ -390,7 +408,6 @@ a {
   .contact-card {
     min-width: 100%;
     padding: 20px 0;
-
   }
 }
 

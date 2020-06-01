@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from './Components/Navbar'
-import About from './Components/About'
 import Slider from './Components/Slider'
 import MissionStatement from './Components/MissionStatement'
 import Solutions from './Components/Solutions'

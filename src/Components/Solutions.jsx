@@ -16,7 +16,9 @@ export default function Services() {
           </span>
           <div className="service-card-title">Cabling and Networking</div>
           <div className="">
-          We are experts at designing, installing and supporting wireless and wired networks and camera systems that are fast, secure and reliable.
+            We are experts at designing, installing and supporting wireless and
+            wired networks and camera systems that are fast, secure and
+            reliable.
           </div>
         </div>
 
@@ -26,9 +28,11 @@ export default function Services() {
           </span>
           <div className="service-card-title">IT Consulting Services</div>
           <div className="">
-          Our team of consultants proactively design, manage and  implement IT Solutions while mitigating risks to assets and data. Areas of focus for our Guardian IT Solutions™ include:
+            Our team of consultants proactively design, manage and implement IT
+            Solutions while mitigating risks to assets and data. Areas of focus
+            for our Guardian IT Solutions™ include:
           </div>
-          <ul>
+          <ul className="solution-bullets">
             <li>Cloud Services</li>
             <li>Managed Services</li>
             <li>Cybersecurity</li>
@@ -42,7 +46,10 @@ export default function Services() {
           </span>
           <div className="service-card-title">IT Staffing</div>
           <div className="">
-          With over 20 years experience in staffing of technical personnel, Soromma is able to source industry-tested professionals in a wide array of technical disciplines on a temporary or permanent basis to complement your existing internal IT staff.
+            With over 20 years experience in staffing of technical personnel,
+            Soromma is able to source industry-tested professionals in a wide
+            array of technical disciplines on a temporary or permanent basis to
+            complement your existing internal IT staff.
           </div>
         </div>
       </div>
