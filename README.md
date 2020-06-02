@@ -26,6 +26,7 @@ Through networking was reached out to by Soromma Technologies to create a single
 - Client wants the slider pictures to not be 100% view height.
 - Client wants to take out the carousel and just have it as one static picture.
 - Client wants an on scroll animation.
+- Client wants a new component for mission statement.
 
 
 ## Time Frame
