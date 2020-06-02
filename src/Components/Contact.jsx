@@ -21,12 +21,16 @@ export default function Contact() {
         <a
           rel="noopener noreferrer"
           target="_blank"
-          href="http://maps.google.com/?q=Empire State Building, New York, NY 10001"
+          href="http://maps.google.com/?q=105 Lock Street Suite 203Newark, New Jersey 07103"
         >
           <div className="contact-card" data-aos="fade-up">
             <i class="fas fa-compass contact-card-image fa-2x"></i>
             <div className="contact-header">Our Address</div>
-            <div>Empire State Building, New York, NY 10001</div>
+            <div>
+              105 Lock Street Suite 203
+              <br />
+              Newark, New Jersey 07103
+            </div>
           </div>
         </a>
         <a href="tel:[13472928240]">

@@ -3,13 +3,16 @@ import video from "../Images/GoalsVideo.mp4";
 
 export default function MissionStatement() {
   return (
-    <div className="mission-statment-contatiner">
+    <div id="about" className="mission-statment-contatiner">
       <video className="video-tag" autoPlay loop muted>
         <source src={video} type="video/mp4" />
       </video>
       <div className="mission-statement">
-        Our goal is to provide for you our gaurdian IT Solutions to secure your
-        information technology assets.
+      Soromma means guardianship. 
+      <br/>
+        Through our suite of Guardian IT Solutions™, we give peace of mind to
+        managers and executives who engage us to protect their most important
+        and valuable information and technology assets.
       </div>
     </div>
   );
