@@ -15,7 +15,7 @@ export default function Services() {
             <i class="fas fa-network-wired circle-icon fa-3x"></i>
           </span>
           <div className="service-card-title">Cabling and Networking</div>
-          <div className="">
+          <div className="service-text">
             We are experts at designing, installing and supporting wireless and
             wired networks and camera systems that are fast, secure and
             reliable.
@@ -27,7 +27,7 @@ export default function Services() {
             <i class="fas fa-shield-alt circle-icon fa-3x"></i>
           </span>
           <div className="service-card-title">IT Consulting Services</div>
-          <div className="">
+          <div className="service-text">
             Our team of consultants proactively design, manage and implement IT
             Solutions while mitigating risks to assets and data. Areas of focus
             for our Guardian IT Solutions™ include:
@@ -45,7 +45,7 @@ export default function Services() {
             <i class="fas fa-user-friends circle-icon fa-3x"></i>
           </span>
           <div className="service-card-title">IT Staffing</div>
-          <div className="">
+          <div className="service-text">
             With over 20 years experience in staffing of technical personnel,
             Soromma is able to source industry-tested professionals in a wide
             array of technical disciplines on a temporary or permanent basis to

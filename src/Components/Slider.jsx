@@ -1,6 +1,6 @@
 import React from "react";
 import SlideData from "./SlideData";
-import Background from "../Images/slide-background.jpg";
+import Background from "../Images/slide-background.JPEG";
 
 export default function Slider() {
   let sliderArr = [
