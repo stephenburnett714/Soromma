@@ -41,7 +41,7 @@ export default function Navbar() {
             to="about"
             spy={true}
             smooth={true}
-            offset={-100}
+            offset={-80}
             duration={500}
           >
             About
@@ -55,7 +55,7 @@ export default function Navbar() {
             to="solutions"
             spy={true}
             smooth={true}
-            offset={-100}
+            offset={-80}
             duration={500}
           >
             Solutions
@@ -69,7 +69,7 @@ export default function Navbar() {
             to="contact"
             spy={true}
             smooth={true}
-            offset={-20}
+            offset={-80}
             duration={500}
           >
             Contact

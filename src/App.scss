@@ -3,6 +3,7 @@
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fauna+One&family=Playfair+Display&display=swap");
 
 /*********** Used In Multiple ***********/
 
@@ -18,6 +19,90 @@ a {
   color: black;
   text-decoration: none;
 }
+
+.header-font {
+  font-family: "Oxygen", sans-serif;
+}
+
+.text-font {
+  font-family: "Fauna One", serif;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+.font-16 {
+  font-size: 18px;
+}
+
+.font-24 {
+  font-size: 24px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
+.pl-minority {
+  padding-left: .75rem;
+}
+
+@media screen and (max-width: 750px) {
+  .pl-minority {
+    padding-left: .5rem;
+  }
+}
+
+.font-white {
+  color: white;
+}
+
+.py-menu {
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+.flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.h-half {
+  height: 50%;
+}
+
+.left-border {
+  border-left: 5px solid yellow;;
+}
+
+@media screen and (max-width: 550px) {
+  .left-border {
+    border-left: 3px solid yellow;;
+  }
+}
+
+
+
 
 /*********** Nav Bar ***********/
 
@@ -42,7 +127,7 @@ a {
 }
 
 .nav-bar-logo {
-  height: 60px;
+  height: 50px;
   width: auto;
   margin: 0 auto;
 }
@@ -74,6 +159,26 @@ a {
 @media screen and (max-width: 950px) {
   .nav-title {
     display: none;
+  }
+}
+
+.nav-menu-items {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  font-size: 2rem;
+  list-style: none;
+  align-items: center;
+}
+
+.nav-menu-padding {
+  padding-top: 55px;
+}
+
+@media screen and (max-height: 500px) {
+  .nav-menu-padding {
+    padding-top: 25px;
   }
 }
 
@@ -125,70 +230,178 @@ a {
   margin: 0;
   max-width: 100vw;
   height: auto;
-  background: #63a3e4;
+  background: #0e6bc7;
+}
+
+.minority-owned-text {
+  position: absolute;
+  top: 75%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 40vw;
+  p {
+    font-size: 25px;
+  }
+
 }
 
 .mission-statement {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 35%;
+  left: 30%;
   transform: translate(-50%, -50%);
-  font-size: 50px;
-  color: black;
-  width: 80vw;
+  color: white;
+  width: 45vw;
+  p {
+    font-size: 35px;
+  }
+  h1 {
+    font-size: 38px;
+  }
 }
 
 @media screen and (max-width: 1100px) {
   .mission-statement {
-    font-size: 45px;
+    p {
+      font-size: 29px;
+    }
+    h1 {
+      font-size: 33px;
+    }
+  }
+  .minority-owned-text {
+    p {
+      font-size: 20px;
+    }
   }
 }
 
 @media screen and (max-width: 1000px) {
   .mission-statement {
-    font-size: 40px;
+    p {
+      font-size: 24px;
+    }
+    h1 {
+      font-size: 28px;
+    }
+  }
+  .minority-owned-text {
+    p {
+      font-size: 18px;
+    }
   }
 }
 
 @media screen and (max-width: 900px) {
   .mission-statement {
-    font-size: 35px;
+    p {
+      font-size: 19px;
+    }
+    h1 {
+      font-size: 22px;
+    }
+  }
+  .minority-owned-text {
+    p {
+      font-size: 14px;
+    }
   }
 }
 
 @media screen and (max-width: 800px) {
   .mission-statement {
-    font-size: 30px;
+    p {
+      font-size: 17px;
+    }
+    h1 {
+      font-size: 20px;
+    }
+  }
+  .minority-owned-text {
+    p {
+      font-size: 12px;
+    }
   }
 }
 
 @media screen and (max-width: 700px) {
   .mission-statement {
-    font-size: 25px;
+    p {
+      font-size: 15px;
+    }
+    h1 {
+      font-size: 18px;
+    }
+  }
+  .minority-owned-text {
+    p {
+      font-size: 10px;
+    }
   }
 }
 
 @media screen and (max-width: 600px) {
   .mission-statement {
-    font-size: 20px;
+    p {
+      font-size: 13px;
+    }
+    h1 {
+      font-size: 16px;
+    }
+  }
+  .minority-owned-text {
+    p {
+      font-size: 8px;
+    }
   }
 }
 
 @media screen and (max-width: 500px) {
   .mission-statement {
-    font-size: 18px;
+    p {
+      font-size: 12px;
+    }
+    h1 {
+      font-size: 14px;
+    }
+  }
+  .minority-owned-text {
+    p {
+      font-size: 10px;
+    }
   }
 }
 
 @media screen and (max-width: 420px) {
   .mission-statement {
-    font-size: 14px;
+    p {
+      font-size: 10px;
+    }
+    h1 {
+      font-size: 12px;
+    }
+  }
+  .minority-owned-text {
+    p {
+      font-size: 8px;
+    }
   }
 }
 
 @media screen and (max-width: 350px) {
   .mission-statement {
-    font-size: 12px;
+    p {
+      font-size: 8px;
+    }
+    h1 {
+      font-size: 10px;
+    }
+  }
+  .minority-owned-text {
+    p {
+      font-size: 6px;
+    }
   }
 }
 
@@ -201,76 +414,76 @@ a {
 
 /*********** MinorityOwned ************/
 
-.minority-owned-contatiner {
-  min-width: 90vw;
-  height: 90vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #63a3e4;
-  padding: 5vh 5vw;
-}
+// .minority-owned-contatiner {
+//   min-width: 90vw;
+//   height: 90vh;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   background: #63a3e4;
+//   padding: 5vh 5vw;
+// }
 
-.minority-owned {
-  font-size: 60px;
-  color: white;
-}
+// .minority-owned {
+//   font-size: 60px;
+//   color: white;
+// }
 
-@media screen and (max-width: 600px) {
-  .minority-owned-contatiner {
-    min-width: 90vw;
-    padding: 5vh 3vw;
-    height: 60vh;
-  }
-}
+// @media screen and (max-width: 600px) {
+//   .minority-owned-contatiner {
+//     min-width: 90vw;
+//     padding: 5vh 3vw;
+//     height: 60vh;
+//   }
+// }
 
-@media screen and (max-width: 1000px) {
-  .minority-owned {
-    font-size: 50px;
-  }
-}
+// @media screen and (max-width: 1000px) {
+//   .minority-owned {
+//     font-size: 50px;
+//   }
+// }
 
-@media screen and (max-width: 900px) {
-  .minority-owned {
-    font-size: 45px;
-  }
-}
+// @media screen and (max-width: 900px) {
+//   .minority-owned {
+//     font-size: 45px;
+//   }
+// }
 
-@media screen and (max-width: 800px) {
-  .minority-owned {
-    font-size: 40px;
-  }
-}
+// @media screen and (max-width: 800px) {
+//   .minority-owned {
+//     font-size: 40px;
+//   }
+// }
 
-@media screen and (max-width: 700px) {
-  .minority-owned {
-    font-size: 35px;
-  }
-}
+// @media screen and (max-width: 700px) {
+//   .minority-owned {
+//     font-size: 35px;
+//   }
+// }
 
-@media screen and (max-width: 600px) {
-  .minority-owned {
-    font-size: 30px;
-  }
-}
+// @media screen and (max-width: 600px) {
+//   .minority-owned {
+//     font-size: 30px;
+//   }
+// }
 
-@media screen and (max-width: 500px) {
-  .minority-owned {
-    font-size: 26px;
-  }
-}
+// @media screen and (max-width: 500px) {
+//   .minority-owned {
+//     font-size: 26px;
+//   }
+// }
 
-@media screen and (max-width: 420px) {
-  .minority-owned {
-    font-size: 20px;
-  }
-}
+// @media screen and (max-width: 420px) {
+//   .minority-owned {
+//     font-size: 20px;
+//   }
+// }
 
-@media screen and (max-width: 350px) {
-  .minority-owned {
-    font-size: 18px;
-  }
-}
+// @media screen and (max-width: 350px) {
+//   .minority-owned {
+//     font-size: 18px;
+//   }
+// }
 
 /*********** WorkFlow ************/
 
@@ -289,7 +502,7 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 50px;
+  font-size: 45px;
   color: black;
   width: 80vw;
 }
@@ -298,56 +511,56 @@ a {
   width: 100vw;
   max-height: auto;
   z-index: 0;
-  opacity: .4;
+  opacity: 0.4;
   padding: 0;
   margin: 0;
 }
 
 @media screen and (max-width: 1000px) {
   .work-flow {
-    font-size: 45px;
+    font-size: 40px;
   }
 }
 
 @media screen and (max-width: 900px) {
   .work-flow {
-    font-size: 40px;
+    font-size: 35px;
   }
 }
 
 @media screen and (max-width: 800px) {
   .work-flow {
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 
 @media screen and (max-width: 700px) {
   .work-flow {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .work-flow {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .work-flow {
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 
 @media screen and (max-width: 420px) {
   .work-flow {
-    font-size: 14px;
+    font-size: 10px;
   }
 }
 
 @media screen and (max-width: 350px) {
   .work-flow {
-    font-size: 12px;
+    font-size: 8px;
   }
 }
 
@@ -430,11 +643,6 @@ a {
   background-color: white;
 }
 
-.service-card-title {
-  padding: 10px;
-  font-size: x-large;
-}
-
 .service-card-container {
   display: flex;
   flex-direction: row;
@@ -446,14 +654,6 @@ a {
   background: #63a3e4;
   padding: 30px;
   border-radius: 50%;
-}
-
-.service-text {
-  text-align: left;
-}
-
-.solution-bullets {
-  text-align: left;
 }
 
 /*********** Contact ***********/

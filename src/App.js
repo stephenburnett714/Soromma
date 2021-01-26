@@ -16,7 +16,6 @@ function App() {
       <Navbar />
       <Slider />
       <MissionStatement />
-      <MinorityOwned />
       <WorkFlow />
       <Solutions />
       <Contact />
